@@ -1,0 +1,81 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3">
+      <h1 class="top">
+        Welcome to
+        <br />
+        <strong>EasyShopLine</strong>
+      </h1>
+    </div>
+
+    <div class="col-lg-9">
+      <section>
+        <div class="row top">
+          <div
+            class="col-lg-4 col-md-6 mb-4"
+            *ngFor="let products of productList"
+          >
+            <div class="card h-100 fe-box">
+              <!-- Sale badge-->
+              <div
+                class="badge bg-dark text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="{{ products.productImg }}"
+                alt="..."
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <a
+                    class="anchorTagClass"
+                    routerLink="products/view-product/{{ products.id }}"
+                    >{{ products.productName }}</a
+                  >
+
+                  <!-- Product price-->
+                  <span class="text-muted text-decoration-line-through"
+                    >$20.00</span
+                  >
+                  ${{ products.price }}
+                </div>
+              </div>
+
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <div class="d-flex">
+                    <span value="1" style="max-width: 4.5rem" class="review">
+                      {{ products.rating }}<i class="fa-solid fa-star"></i>
+                    </span>
+
+                    <!-- Product reviews-->
+                    <a
+                      class="anchorTagClass review"
+                      routerLink="products/view-product/{{ products.id }}"
+                      >{{ products.review }} reviews</a
+                    >
+                  </div>
+                  <br />
+
+                  <button
+                    class="btn btn-outline-dark mt-auto"
+                    (click)="addToCart(products)"
+                  >
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>

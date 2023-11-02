@@ -1,0 +1,66 @@
+<div class="total">
+  <p class="para1">Hi, Your grandTotal is {{ grandTotal }}</p>
+  <p>Please fill your information carefully,</p>
+  <p>and our team will contact you soon.</p>
+</div>
+
+<div class="container" id="formFill">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="">
+        <div class="text-center">
+          <h1 style="color: orangered">Checkout</h1>
+        </div>
+        <form [formGroup]="checkoutForm" (ngSubmit)="checkout()">
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Full Name</label
+            >
+            <input
+              formControlName="fullname"
+              type="text"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Mobile Number</label
+            >
+            <input
+              formControlName="mobile"
+              type="number"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >CityandState</label
+            >
+            <input
+              formControlName="CityandState"
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text" style="color: white"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Address</label
+            >
+            <input
+              formControlName="Address"
+              type="text"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <button type="submit" class="btn btn-danger">Submit Form</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

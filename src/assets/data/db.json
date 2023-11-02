@@ -1,0 +1,211 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Sony 65 Inch 4K Ultra HD TV ",
+      "categoryId": 1,
+      "descriptions": "Sony 65 Inch 4K Ultra HD TV X90K Series: BRAVIA XR Full Array LED Smart Google TV with Dolby Vision HDR and Exclusive Features for The Playstation® 5 XR65X90K- 2022 Model",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/ele1.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 2,
+      "productName": "JVC 32-Inch 720p HD LED Roku Smart TV",
+      "categoryId": 1,
+      "descriptions": "JVC 32-Inch 720p HD LED Roku Smart TV with Voice Control App, Airplay, Screen Casting, & 300+ Free Streaming Channels (LT32MAW2) Netflix, Hulu, Vudu, Amazon Instant Video, YouTube ",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/tv1.png",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 3,
+      "productName": "SAMSUNG 75-Inch Class Neo",
+      "categoryId": 1,
+      "descriptions": "SAMSUNG 75-Inch Class Neo QLED 8K QN900B Series Mini LED Quantum HDR 64x, Infinity Screen, Dolby Atmos, Object Tracking Sound Pro, Smart TV with Alexa Built-In (QN75QN900BFXZA, 2022 Model). 100% Color Volume with Quantum Dot; Real Depth Enhancer; ",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/tv2.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 4,
+      "productName": "Sleeve Plaid Poplin Shirt",
+      "categoryId": 2,
+      "descriptions": "Crisp poplin fabric and a sophisticated check pattern make this long-sleeve button-up shirt a go-to pick for any occasion Patch chest pocket and rounded barrel cuff.",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/shirt1.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 5,
+      "productName": "Gemijack Casual Button Down Shirts",
+      "categoryId": 2,
+      "descriptions": "Crisp poplin fabric and a sophisticated check pattern make this long-sleeve button-up shirt a go-to pick for any occasion Patch chest pocket and rounded barrel cuff.",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/shirt2.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 6,
+      "productName": "TUREFACE Casual Cotton T-shirt ",
+      "categoryId": 2,
+      "descriptions": "Crisp poplin fabric and a sophisticated check pattern make this long-sleeve button-up shirt a go-to pick for any occasion Patch chest pocket and rounded barrel cuff.",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/shirt3.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 7,
+      "productName": "Women's Banarasi Saree",
+      "categoryId": 3,
+      "descriptions": "Indian Women's Banarasi Jacquard Rich Pallu Saree Wedding Traditional Designer Saree Bridal Silk Sari with Unstitched Blouse Indian Women's Banarasi Jacquard Rich Pallu Saree Wedding Traditional Designer Saree Bridal Silk Sari with Unstitched Blouse",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/women1.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 8,
+      "productName": "Janasya Turquoise Pure Cotton Kurta",
+      "categoryId": 3,
+      "descriptions": "Kurta Fabric: Cotton, Style: 46(inch) Blue Printed Casual Flared 3 Regular Sleeves Kurta ,Packet contain: 1 readymade Kurta ,Ocassion: Casual; Packet contain: 1 readymade Kurta",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/women2.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 9,
+      "productName": "Chandrakala Gold Foil Printed Kurta",
+      "categoryId": 3,
+      "descriptions": "Kurta Fabric: Cotton, Style: 46(inch) Blue Printed Casual Flared 3 Regular Sleeves Kurta ,Packet contain: 1 readymade Kurta ,Ocassion: Casual; Packet contain: 1 readymade Kurta",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/women3.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 10,
+      "productName": "Girls Tutu Gown Flower Dresses",
+      "categoryId": 5,
+      "descriptions": "NSSMWTTC 6M-6T Baby Backless Pageant Dress Toddler Girls Tutu Gown Flower Dresses with Headwear. Gentle wash and hang dry recommended. Dry clean is also a good option, it will lengthen the use of your clothes",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/child1.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 11,
+      "productName": "Boys Trendy Clothes ",
+      "categoryId": 5,
+      "descriptions": "SWISSWELL Boys Hoodie Sherpa Fleece Lined Jacket Soft Warm Zipper Sweatshirt Outerwear Long sleeve youth hoodies sweatshirt is suit for school, travelling, casual wearing, outdoor activities such as running, climbing, football, basketball",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/child2.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 12,
+      "productName": "Party Embroideryr Dress",
+      "categoryId": 5,
+      "descriptions": "NSSMWTTC 6M-6T Baby Backless Pageant Dress Toddler Girls Tutu Gown Flower Dresses with Headwear. Gentle wash and hang dry recommended. Dry clean is also a good option, it will lengthen the use of your clothes",
+      "price": 300,
+      "is_availble": true,
+      "productImg": "http://localhost:4200/assets/child3.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    }
+  ],
+  "categoreis": [
+    {
+      "id": 1,
+      "categoryName": "Electronics"
+    },
+    {
+      "id": 2,
+      "categoryName": "Men"
+    },
+    {
+      "id": 3,
+      "categoryName": "Women"
+    },
+    {
+      "id": 5,
+      "categoryName": "Baby & kids"
+    }
+  ],
+  "signUpUsers": [
+    {
+      "fullname": "bha",
+      "email": "bhawna23@gmail.com",
+      "password": "chiran",
+      "mobile": 123456789,
+      "id": 1,
+      "admin": true
+    },
+    {
+      "fullname": "bhaw",
+      "email": "1803063@ipec.org.in",
+      "password": "chiran",
+      "mobile": 9821056,
+      "id": 2
+    }
+  ],
+  "checkout": [
+    {
+      "fullname": "bhawna",
+      "email": "",
+      "password": "Shalimar Garden, Ext-2, Sahibabad, Ghaziabad",
+      "mobile": 9821056,
+      "id": 1
+    },
+    {
+      "fullname": "Bhawna ",
+      "mobile": 9821056,
+      "address": "",
+      "cityAndState": "",
+      "id": 2
+    }
+  ]
+}

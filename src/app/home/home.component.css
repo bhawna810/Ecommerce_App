@@ -1,0 +1,226 @@
+h1 {
+  font-size: 50px;
+  line-height: 60px;
+  color: black;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 55px;
+  color: black;
+}
+
+h4 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 17px;
+  color: rgb(82, 78, 78);
+  margin: 15px 0 18px 0;
+}
+
+.section-p {
+  padding: 40px 80px;
+}
+
+.section-m {
+  margin: 40px 0px;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 30px;
+  color: black;
+  background-color: skyblue;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: none;
+  transition: 0.2s;
+}
+
+#master {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background: url("https://i.pinimg.com/originals/b2/90/1f/b2901ff03efa3a4ebfab2f5e9546a2e4.jpg") no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+  background-position: top 25% right 0;
+  padding: 0px 50px;
+}
+
+#master h4 {
+  padding-bottom: 10px;
+  color: rgb(239, 151, 74);
+}
+
+#master h1 {
+  color: rgb(239, 151, 74);
+}
+
+#master button {
+  background-color: transparent;
+  color: rgb(239, 151, 74);
+  border: none;
+  padding: 7px 58px 12px 45px;
+  font-size: 24px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#aboutUs {
+  margin-top: 120px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+#aboutUs .aboutUs-image {
+  width: 50%;
+}
+#aboutUs .aboutUs-para {
+  margin-top: 40px;
+}
+#aboutUs h2 {
+  font-family: "Montserrat-Bold";
+}
+#aboutUs p {
+  color: #8f8f8f;
+}
+
+/* Features1 */
+#features {
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+}
+#features .features-box {
+  padding: 4.5%;
+}
+#features .features-box .features-title {
+  font-size: 1rem;
+}
+#features .features-box .icon {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+  font-size: 54px;
+}
+#features .features-box .icon:hover {
+  color: #ef8172;
+}
+
+/* Testimonial Section */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+em {
+  color: white;
+}
+
+/* Features2 */
+#feature {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#feature .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#feature .fe-box {
+  text-align: center;
+  box-shadow: 20px 20px 34px rgb(201, 218, 224);
+  border: 1px solid gainsboro;
+  width: 150px;
+  margin: 15px 0;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+#feature .fe-box:hover {
+  box-shadow: 10px 1px 68px rgb(201, 218, 224);
+}
+
+#feature .fe-box h6 {
+  /* display: inline-block; */
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 5px;
+  color: green;
+  background-color: #ffb6b6;
+}
+
+#feature .fe-box:nth-child(2) h6 {
+  background-color: #cff39b;
+}
+
+#feature .fe-box:nth-child(3) h6 {
+  background-color: #9be3f3;
+}
+
+#feature .fe-box:nth-child(4) h6 {
+  background-color: #c2bafb;
+}
+
+#feature .fe-box:nth-child(5) h6 {
+  background-color: #9bf3da;
+}
+
+#feature .fe-box:nth-child(6) h6 {
+  background-color: #f3e19b;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  p {
+    color: #8f8f8f;
+    margin-right: 0px;
+  }
+}/*# sourceMappingURL=home.component.css.map */

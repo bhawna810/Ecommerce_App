@@ -1,0 +1,18 @@
+#aboutUs {
+  margin-top: 120px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+#aboutUs .aboutUs-image {
+  width: 50%;
+}
+#aboutUs .aboutUs-para {
+  margin-top: 40px;
+}
+#aboutUs h2 {
+  font-family: "Montserrat-Bold";
+}
+#aboutUs p {
+  color: #8f8f8f;
+  margin-right: 50px;
+}/*# sourceMappingURL=about-us.component.css.map */

@@ -1,0 +1,24 @@
+.card {
+  border: none;
+  width: 500px;
+  padding: 40px;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(184, 172, 172);
+  background: linear-gradient(90deg, rgb(184, 172, 172) 0%, rgb(184, 172, 172) 100%);
+}
+
+.card .text-center h1,
+h6 {
+  font-size: 1.2rem;
+}
+
+label {
+  font-size: 1rem;
+}
+
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}/*# sourceMappingURL=signup.component.css.map */

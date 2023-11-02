@@ -1,0 +1,29 @@
+#formFill {
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-bottom: 80px;
+}
+
+.total {
+  left: 200px;
+  float: right;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.para1 {
+  color: black;
+}
+
+.form-control {
+  width: 150%;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=checkout.component.css.map */

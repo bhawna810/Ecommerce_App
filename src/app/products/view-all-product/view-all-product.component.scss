@@ -1,0 +1,23 @@
+.anchorTagClass {
+  text-decoration: none;
+  color: black;
+}
+.top {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.fe-box {
+  box-shadow: 20px 20px 34px rgb(201, 218, 224);
+  border: 1px solid gainsboro;
+  margin: 15px 0;
+  padding: 10px 10px;
+}
+.fe-box:hover {
+  box-shadow: 10px 1px 68px rgb(201, 218, 224);
+}
